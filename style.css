@@ -5,10 +5,10 @@ body {
 .page {
   max-width: 1184px;
   margin: 28px auto;
+  padding: 0 24px;
 }
 
 .header {
-  width: 1184px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,6 +18,7 @@ body {
   width: 78px;
   display: flex;
   justify-content: space-between;
+
 }
 
 .lenguage {
@@ -29,4 +30,11 @@ body {
 
 .lenguages__ru {
   text-decoration: underline;
+
+}
+
+@media all and (max-width:320px) {
+  .page {
+    padding: 0 16px;
+  }
 }
