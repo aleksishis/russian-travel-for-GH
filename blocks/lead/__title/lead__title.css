@@ -8,3 +8,24 @@
   font-family: 'Inter';
   font-weight: 900;
 }
+
+@media screen and (min-width:1280px) {
+
+  .lead__title {
+    margin: 56px 0 0 0;
+
+  }
+}
+
+@media screen and (max-width:650px) {
+  .lead__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width:366px) {
+  .lead__title {
+    font-size: 44px;
+    line-height: 44px;
+  }
+}

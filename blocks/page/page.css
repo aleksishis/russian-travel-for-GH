@@ -2,9 +2,27 @@
   max-width: 1184px;
   margin: 28px auto;
   padding: 0 24px;
-  color: aliceblue;
+  color: #FFFFFF;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
+}
 
+@media screen and (max-width:1024px) {
+  .page {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .page {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width:366px) {
+  .page {
+    padding: 16px 16px 0 16px;
+    margin: 0 auto;
+  }
 }
