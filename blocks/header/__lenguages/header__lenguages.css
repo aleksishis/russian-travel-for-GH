@@ -1,0 +1,5 @@
+.header__lenguages {
+  width: 78px;
+  display: flex;
+  justify-content: space-between;
+}
