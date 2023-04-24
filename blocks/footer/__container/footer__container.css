@@ -6,6 +6,12 @@
   align-items: center;
 }
 
+@media screen and (max-width:1024px) {
+  .footer__container {
+    margin-top: 60px;
+  }
+}
+
 @media screen and (max-width:768px) {
   .footer__container {
     margin: 0;
