@@ -1,3 +1,59 @@
 .cover__link {
+  background-image: url(../../../images/__background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 0;
+  /*background-size: cover;*/
+  object-fit: cover;
+
+  min-height: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
   text-decoration: none;
 }
+
+.cover__link::after {
+  content: '';
+  background-color: #2A2C2F;
+  background-size: cover;
+  width: 100%;
+  padding: 0;
+  height: 100%;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+  width: 100vw;
+  padding: 0;
+
+}
+
+@media screen and (max-width:1024px) {
+  .cover__link {
+    width: 100vw;
+    min-height: 640px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover__link {
+    width: 100vw;
+    padding: 0;
+  }
+}
+
+/*@media screen and (max-width:320px) {
+  .cover__link {
+    width: 100vw;
+    margin: 0 auto;
+  }
+}*/

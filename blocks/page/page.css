@@ -1,28 +1,32 @@
 .page {
   max-width: 1184px;
-  margin: 28px auto;
-  padding: 0 24px;
-  color: #FFFFFF;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
+  padding: 0 48px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width:1024px) {
-  .page {
-    max-width: 928px;
-  }
+  .page {}
 }
 
 @media screen and (max-width:768px) {
   .page {
-    max-width: 720px;
+    max-width: 100%;
+    padding: 0 24px;
+
   }
 }
 
-@media screen and (max-width:366px) {
+@media screen and (max-width:320px) {
+  .page {
+    max-width: 100%;
+    padding: 0 16px;
+
+  }
+}
+
+/*@media screen and (max-width:366px) {
   .page {
     padding: 16px 16px 0 16px;
     margin: 0 auto;
   }
-}
+}*/

@@ -1,0 +1,8 @@
+.cover__overtext {
+  max-width: 560px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
