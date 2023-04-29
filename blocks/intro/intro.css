@@ -16,16 +16,9 @@
   }
 }
 
-@media screen and (max-width:1280px) {
-  .page__section_lg_narrow {
-    max-width: 928px;
-  }
-}
+@media screen and (max-width:320px) {
+  .intro {
 
-@media screen and (max-width:768px) {
-  .page__section_md_wide {
-    max-width: 928px;
-    padding: 0;
+    padding: 0 16px;
   }
-
 }

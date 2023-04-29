@@ -3,10 +3,3 @@
   margin: 0 auto;
 
 }
-
-@media screen and (max-width:1024px) {
-  .page__section_lg_wide {
-    padding: 0;
-
-  }
-}
