@@ -1,5 +1,5 @@
 .intro__title {
-  font-weight: 900;
+  font-weight: bold;
   font-size: 54px;
   line-height: 58px;
   margin: 0;
@@ -16,9 +16,11 @@
 }
 
 /*заголовк создает скрол*/
-@media screen and (max-width:366px) {
+@media screen and (max-width:320px) {
 
   .intro__title {
     padding-top: 64px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

@@ -12,12 +12,10 @@
   }
 }
 
-/*!place перестаривается в одну колонку*/
-@media screen and (max-width:366px) {
+@media screen and (max-width:375px) {
   .lead__subtitle {
     margin: 16px 0 40px 0;
     font-size: 16px;
     line-height: 20px;
-
   }
 }

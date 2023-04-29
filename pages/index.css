@@ -36,6 +36,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__item700weight/intro__item700weight.css);
 
 /*photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
