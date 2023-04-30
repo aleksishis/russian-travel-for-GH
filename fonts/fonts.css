@@ -1,25 +1,25 @@
 @font-face {
   src:
-    url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
-  font-family: 'Inter', sans-serif;
+    url('../fonts/Inter-Regular.ttf');
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
 
 }
 
 @font-face {
   src:
-    url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-  font-family: 'Inter', sans-serif;
+    url('../fonts/Inter-Bold.ttf');
+  font-family: 'Inter';
   font-weight: normal;
-  font-style: normal;
+  font-style: 700;
 
 }
 
 @font-face {
   src:
-    url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-  font-family: 'Inter', sans-serif;
+    url('../fonts/Inter-Black.ttf');
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
 }
