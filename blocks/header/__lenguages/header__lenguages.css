@@ -1,9 +1,11 @@
 .header__lenguages {
-  max-width: 78px;
+  /*max-width: 78px;*/
   display: flex;
-  flex-grow: 1;
   justify-content: space-between;
   color: #FFFF;
+  align-self: center;
+
+
 }
 
 @media screen and (max-width:320px) {

@@ -25,14 +25,18 @@
 @media screen and (max-width:450px) {
   .photo-grid {
     max-width: 720px;
-    gap: 16px;
   }
 }
-
 
 @media screen and (max-width:320px) {
   .photo-grid {
     max-width: 288px;
     gap: 12px;
+  }
+}
+
+@media screen and (max-width:335px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
   }
 }

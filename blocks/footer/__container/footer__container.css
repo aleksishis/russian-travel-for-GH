@@ -2,7 +2,7 @@
 
   max-width: 1184px;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 92px;
   display: flex;
   justify-content: space-between;
 }
@@ -10,5 +10,17 @@
 @media screen and (max-width:720px) {
   .footer__container {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer__container {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .footer__container {
+    margin-top: 64px;
   }
 }

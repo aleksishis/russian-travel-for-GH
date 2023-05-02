@@ -6,19 +6,24 @@
   color: #FFFFFF;
   margin: 0 0 32px 0;
   text-decoration: none;
+  z-index: 2;
 
 }
 
 @media screen and (max-width:515px) {
   .cover__title {
+    font-size: 32px;
+    line-height: 35px;
     font-size: 32px;
     line-height: 35px;
   }
 }
 
-@media screen and (max-width:515px) {
+@media screen and (max-width:320px) {
   .cover__title {
-    font-size: 32px;
-    line-height: 35px;
+    max-width: 288px;
+    margin-bottom: 16px;
+
+
   }
 }

@@ -1,0 +1,19 @@
+@media screen and (max-width:768px) {
+  .page__section_md_narrow {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .page__section_md_wide {
+    max-width: 928px;
+    /*padding: 0;*/
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  .page__section_md_narrow {
+    padding: 0 16px;
+  }
+}

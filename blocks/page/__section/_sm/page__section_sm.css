@@ -1,0 +1,19 @@
+@media screen and (max-width:425px) {
+  .page__section_sm_narrow {
+    grid-template-columns: minmax(320px, 1fr);
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  .page__section_sm_narrow {
+    padding: 0 16px;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  .page__section_sm_wide {
+    padding: 0 0;
+  }
+}
