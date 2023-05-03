@@ -1,5 +1,5 @@
-.place__paragraph:nth-child(odd) {
-  padding-bottom: 26px;
+.place__paragraph:nth-child(even) {
+  padding-top: 25px;
 }
 
 .place__paragraph {

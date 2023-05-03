@@ -1,0 +1,5 @@
+@media screen and (max-width:375px) {
+  .page__section_sm_wide {
+    padding: 0 0;
+  }
+}

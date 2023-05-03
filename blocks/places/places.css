@@ -2,3 +2,17 @@
   max-width: 984px;
   margin: 0 auto;
 }
+
+/*@media screen and (max-width:768px) {
+
+  .places {
+    padding-top: 134px;
+  }
+}*/
+
+@media screen and (max-width:320px) {
+
+  .places {
+    padding-top: 64px;
+  }
+}
